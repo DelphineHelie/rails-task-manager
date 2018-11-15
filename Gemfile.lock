@@ -60,7 +60,7 @@ GEM
       rack-test (>= 0.6.3)
       xpath (~> 3.0)
     childprocess (0.9.0)
-      ffi (~> 1.0, >= 1.0.11)
+      ffi ~> 1.9.24
     chromedriver-helper (1.2.0)
       archive-zip (~> 0.10)
       nokogiri (~> 1.8)
@@ -122,8 +122,8 @@ GEM
       activesupport (= 5.2.0)
       bundler (>= 1.3.0)
       railties (= 5.2.0)
-      sprockets-rails (>= 2.0.0)
-    rails-dom-testing (2.0.3)
+      sprockets ~> 3.7.2    
+      rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.4)
@@ -161,7 +161,7 @@ GEM
       spring (>= 1.2, < 3.0)
     sprockets (3.7.1)
       concurrent-ruby (~> 1.0)
-      rack (> 1, < 3)
+      rack ~> 2.0.6
     sprockets-rails (3.2.1)
       actionpack (>= 4.0)
       activesupport (>= 4.0)
